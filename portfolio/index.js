@@ -1,0 +1,1 @@
+$("div").animate({opacity:0.5});

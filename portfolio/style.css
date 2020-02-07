@@ -1,0 +1,164 @@
+body{
+/*background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,2,26,1) 35%, rgba(2,27,33,0.8072362734156162) 100%);*/
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,2,26,1) 23%, rgba(2,27,33,0.8072362734156162) 100%);
+}
+/*navigation bar*/
+.nav{
+        position: absolute;
+    top:0;
+
+}
+.navbar{
+    padding:0 0 4.5rem;
+    position: fixed;
+    top:0;
+
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.3rem;
+}
+.navbar-nav{
+    padding-right: 0;
+}
+
+.navbar-nav .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+
+/**/
+/*into*/
+.photo-1{
+  border-radius: 100%;
+border: solid 15px #5cb85c/*#78e08f*/;
+    width:45%;
+}
+.msg_cotainer_send{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 0px;
+		border-radius: 25px 25px 25px 0px;
+		background-color: #5cb85c;
+		padding: 10px;
+        width:25%;
+		color:white;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align:center;
+	}
+.intro{
+    padding-top:15%;
+    color:white;
+    height:100vh;
+}
+.naam{
+    font-size:3.5em;
+}
+.job{
+    font-size:3.0em;
+}
+/*about*/
+.photo-2{
+    width:80%;
+}
+.about{
+    height:70vh;
+    color:white;
+    padding-left:50px;
+}
+.btn,.btn-outline-success{
+    margin:8px;
+    color:white;
+}
+/*skills*/
+.skills{
+    width:80%;
+    align-items: center;
+    color:white;
+    height:60vh;
+    margin:0 auto;
+}
+.skills h1{
+    padding-bottom:5%;
+}
+.tech{
+    height:80vh;
+    padding:5%;
+    width:55%;
+    
+}
+.tech h1{
+    text-align: center;
+    margin:0 auto;
+    margin-left: 50%;
+}
+
+.tech h3{
+    padding:2%;
+    text-align:right;
+}
+.gif{
+    width:10%;
+}
+.projects{
+    height:100vh;
+    padding:20%;
+    margin-top:10%;
+
+}
+
+.tech{
+    text-align: left;
+    margin:0;
+}
+.p1{
+    padding:10px;
+}
+
+.pr-img{
+    width:100%;
+}
+.pr-heading{
+    font-size:2.5em;
+    padding: 2%;
+    color:white;
+    text-align: center;
+}
+
+.navbar-brand{
+   font-family: 'Lobster', cursive;
+}
+.p1 h3,p{
+    color:white;
+}
+
+.card-header{
+    color:#5cb85c;
+}
+
+
+footer{
+padding:10%;
+margin-top:20%;
+color:white;
+text-align: center;
+}
+.icons i{
+    font-size: 4.5em;
+    padding:45px 15px 15px 15px;
+}
